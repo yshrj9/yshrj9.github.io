@@ -1,0 +1,182 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('files/img/wp1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(44,66,123,0.7);
+  position:fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:96%;
+  z-index: 2;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgba(227,58,240,0.5);
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+/* nav{
+  margin: 30px;
+
+}
+nav *{
+    display:inline;
+}
+
+nav li{
+    margin:20px;
+} */
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.header h1 {
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+.header h3 {
+  color: grey;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.quote-section {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section p {
+  font-size: 2rem;
+  font-style: italic;
+  color: wheat;
+}
+
+.cards-section {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: space-evenly;
+  /* justify-content: flex-start; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center{
+  display: flex;
+  margin:auto;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 1px solid plum;
+  padding: 2rem;
+  margin: 2rem;
+  width: 40%;
+  backdrop-filter: blur(25px);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.cards-section a{
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  grid-template-columns:40%,60%;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-top: thin double whitesmoke;
+}
+
+label{
+  font-size: 25px;
+}
+.socials{
+  width:60%;
+  margin:auto;
+  justify-content: space-evenly;
+  display: flex;
+  grid-template-columns: repeat(15%,1fr);
+  align-items: center;
+}
+
+.socials>a>img{
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+a{
+  color: whitesmoke;
+}
