@@ -159,8 +159,11 @@ footer{
   border-top: thin double whitesmoke;
 }
 
-.contact>label{
+.contact>form>label{
     color: white;
+}
+.contact>h1{
+  color:antiquewhite;
 }
 
 label{

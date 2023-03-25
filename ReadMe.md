@@ -6,8 +6,13 @@ This is under construction. Till now I'v only made Landing page.
 
 Progress: - 
     [X] - Landing Page
+
     [ ] - Resume
+
     [ ] - About Me
+
     [ ] - Certificates And Achievements
+
     [ ] - Better blog
+
     [ ] - Projects
