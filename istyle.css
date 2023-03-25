@@ -159,6 +159,10 @@ footer{
   border-top: thin double whitesmoke;
 }
 
+.contact>label{
+    color: white;
+}
+
 label{
   font-size: 25px;
 }
