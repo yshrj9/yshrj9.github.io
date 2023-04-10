@@ -16,3 +16,5 @@ Progress: -
     [ ] - Better blog
 
     [ ] - Projects
+    
+    [ ] - Accessibility
